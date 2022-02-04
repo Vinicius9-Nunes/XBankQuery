@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XBankQuery.Application\XBankQuery.Application.csproj" />
+    <ProjectReference Include="..\XbankQuery.Domain\XbankQuery.Domain.csproj" />
+    <ProjectReference Include="..\XBankQuery.Repository\XBankQuery.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

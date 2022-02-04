@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XBankQuery", "XBankQuery\XBankQuery.csproj", "{3AD98FE9-219C-4C90-8635-B294667C1D0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XbankQuery.Domain", "XbankQuery.Domain\XbankQuery.Domain.csproj", "{CCAEEA0E-C61A-4361-B63E-B8F3F09EE38B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XBankQuery.Application", "XBankQuery.Application\XBankQuery.Application.csproj", "{BCA4377C-E534-4581-9381-C42CA17EA5CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XBankQuery.Repository", "XBankQuery.Repository\XBankQuery.Repository.csproj", "{71CFACB5-D3A3-49F2-9891-41181242752E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XBankQuery.CrossCutting", "XBankQuery.CrossCutting\XBankQuery.CrossCutting.csproj", "{A4555593-6D3A-4323-BCF8-8BA5DB06E359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XBankQuery.Tests", "XBankQuery.Tests\XBankQuery.Tests.csproj", "{82253284-F487-4078-ACB2-95CE53666833}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AD98FE9-219C-4C90-8635-B294667C1D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD98FE9-219C-4C90-8635-B294667C1D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD98FE9-219C-4C90-8635-B294667C1D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD98FE9-219C-4C90-8635-B294667C1D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCAEEA0E-C61A-4361-B63E-B8F3F09EE38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCAEEA0E-C61A-4361-B63E-B8F3F09EE38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCAEEA0E-C61A-4361-B63E-B8F3F09EE38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCAEEA0E-C61A-4361-B63E-B8F3F09EE38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA4377C-E534-4581-9381-C42CA17EA5CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA4377C-E534-4581-9381-C42CA17EA5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA4377C-E534-4581-9381-C42CA17EA5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA4377C-E534-4581-9381-C42CA17EA5CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71CFACB5-D3A3-49F2-9891-41181242752E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71CFACB5-D3A3-49F2-9891-41181242752E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71CFACB5-D3A3-49F2-9891-41181242752E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71CFACB5-D3A3-49F2-9891-41181242752E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4555593-6D3A-4323-BCF8-8BA5DB06E359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4555593-6D3A-4323-BCF8-8BA5DB06E359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4555593-6D3A-4323-BCF8-8BA5DB06E359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4555593-6D3A-4323-BCF8-8BA5DB06E359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82253284-F487-4078-ACB2-95CE53666833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82253284-F487-4078-ACB2-95CE53666833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82253284-F487-4078-ACB2-95CE53666833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82253284-F487-4078-ACB2-95CE53666833}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4725C21-FB90-42B9-8B8B-D3C92F03AF8D}
+	EndGlobalSection
+EndGlobal
